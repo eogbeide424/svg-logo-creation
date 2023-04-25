@@ -4,10 +4,13 @@
   },
   "name": "svg-logo-creation",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "main": "test.js",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,9 @@
     "url": "https://github.com/eogbeide424/svg-logo-creation/issues"
   },
   "homepage": "https://github.com/eogbeide424/svg-logo-creation#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "description": ""
 }
